@@ -1,0 +1,34 @@
+.mt_starRating_stars_container, .mt_starRating_title, .mt_starRating_value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  line-height: 1;
+  padding-bottom:10px;
+}
+
+.mt_starRating_title *, .mt_starRating_value *{
+  margin-top:0;
+  margin-bottom:0;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+.mt_starRating_stars {
+  color: gold;
+  display: inline-block;
+  font-size: 3em;
+  position: relative;
+}
+
+.mt_starRating_stars__max, .mt_starRating_stars__note {
+  position: absolute;
+  top: 0;
+}
+
+.mt_starRating_stars__note {
+  width:0%;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: width 1s ease-out;
+}
